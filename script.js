@@ -17,7 +17,7 @@ $(document).ready(() => {
 
     // thumbnails bounce on hover
     $(".thumbnail").hover(
-        evt => $(evt.currentTarget).stop(true).animate({top: 15}, "fast"),
+        evt => $(evt.currentTarget).stop(true).animate({top: 5}, "fast"),
         evt => $(evt.currentTarget).stop(true).animate({top: 0}, "fast"),
 
     )
